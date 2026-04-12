@@ -1,0 +1,6 @@
+{
+  "ehour": {
+    "type": "http",
+    "url": "https://ehourapp.com/mcp"
+  }
+}

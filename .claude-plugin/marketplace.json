@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ehour-plugins",
+  "description": "eHour marketplace - Claude Code plugins for time tracking and project administration.",
+  "owner": {
+    "name": "eHour",
+    "email": "info@ehourapp.com"
+  },
+  "plugins": [
+    {
+      "name": "ehour",
+      "description": "eHour time tracking, project management, and team administration via natural language. Adds three slash commands (/ehour-log, /ehour-projects, /ehour-users) and registers the eHour MCP server.",
+      "source": "./plugins/ehour",
+      "category": "productivity",
+      "homepage": "https://ehourapp.com",
+      "author": {
+        "name": "eHour",
+        "email": "info@ehourapp.com"
+      }
+    }
+  ]
+}

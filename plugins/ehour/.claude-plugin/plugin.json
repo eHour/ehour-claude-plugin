@@ -1,0 +1,10 @@
+{
+  "name": "ehour",
+  "description": "eHour time tracking, project management, and team administration for Claude Code. Provides three slash commands (/ehour-log, /ehour-projects, /ehour-users) that act as open conversational entry points into the eHour MCP server.",
+  "version": "0.1.0",
+  "author": {
+    "name": "eHour",
+    "email": "info@ehourapp.com"
+  },
+  "homepage": "https://ehourapp.com"
+}
