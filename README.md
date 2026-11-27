@@ -27,6 +27,13 @@ The first time Claude Code calls an eHour MCP tool, your browser will open to eH
 
 If your token expires, the next tool call will trigger the OAuth2 flow again. You do not need to re-install the plugin.
 
+## Data and privacy
+
+The plugin holds no code of its own. It registers the eHour MCP server at `https://ehourapp.com/mcp` and adds three skills.
+Claude Code sends each eHour tool call, with the data that the call needs, to that server over HTTPS.
+eHour reads and writes only the data of your own eHour account, within the scopes that you approve on the consent page.
+eHour handles that data as its [privacy policy](https://ehour.com/legal/privacy-policy/) describes.
+
 ## Slash command reference
 
 | Command | Description | Domain |
